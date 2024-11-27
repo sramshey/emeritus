@@ -37,8 +37,10 @@ and after optimization. The KNN and RandomForestClassifier had the best
 performance, with KNN achieving 90% accuracy and the RandomForestClassifier achieving
 around 95% accuracy on the test set.
 
+Additional evaluation is pending.
+
 ### Step 4 - Deployment
 
-Findings were summarized for business presentation.
+TBD
 
 Author Contact Info Stefan Amshey sramshey@gmail.com
