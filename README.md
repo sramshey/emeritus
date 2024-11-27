@@ -1,6 +1,8 @@
 # mol_class
 Machine Learning/AI through Emeritus/UCBerkeley
 
+https://github.com/sramshey/mol_class/blob/main/molecule_classifier.ipynb
+
 ## Description
 
 This project is an applied practical application of machine learning techniques
