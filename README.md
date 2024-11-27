@@ -1,6 +1,6 @@
 # mol_class
 
-Author: Stefan Amshey sramshey@gmail.com
+Author: Stefan Amshey
 
 ## Executive Summary and Description
 
@@ -77,6 +77,6 @@ https://github.com/sramshey/mol_class/blob/main/molecule_classifier.ipynb
 
 ## Contact and Further Information
 
-Author Contact Info Stefan Amshey sramshey@gmail.com
+Stefan Amshey <sramshey@gmail.com>
 
 
