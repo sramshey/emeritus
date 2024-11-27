@@ -23,14 +23,16 @@ opportunity for researchers, drug companies, other bioprospectors to make use of
 Characterization of proteins, by contrast, is a rate-limiting step, and often
 involves time-consuming and computationally expensive operations like sequence matching
 across large datasets in order to make inferences about the possible function of a
-given  protein. Therefore, the ability to characterize proteins using superficial
-characteristics alone could potentially accelerate research and drug discovery.
+given protein, as well as isolation, purification, crystallization, and X-ray
+crystallography. Therefore, the ability to characterize proteins using superficial
+characteristics alone could potentially accelerate research and drug discovery by
+helping researchers focus on genes and gene products with the highest potentials.
 
 ## Research question
 
-Is it possible to use machine learning methods to perform accurate classification
-of proteins based on superficial characteristics alone, and without using sequence
-matching?
+Can we use machine learning methodology perform accurate classification of proteins
+based on superficial characteristics alone, and without using sequence matching
+against previously characterized gene products?
 
 ## Data Sources
 
@@ -49,21 +51,21 @@ adequate representation were removed.
 ### Step 2 - Modeling
 
 The project explored several models including LogisticRegression, DecisionTreeClassifier,
-SVM, KNN, and RandomForestClassifier. The models were evaluated for initial accuracy, and
-then a grid search was applied to optimize the hyperparameters.
+SVM, KNN, and RandomForestClassifier. Each of the models was evaluated for initial
+accuracy, and then a grid search was applied to optimize the hyperparameters.
 
 ### Step 3 - Evaluation
 
 The accuracy and fit time of each model was evaulated and compared, both before
-and after optimization. 
+and after optimization.
 
 Additional evaluation is pending.
 
 ## Results
 
-The KNN and RandomForestClassifier had the best
-performance, with KNN achieving 90% accuracy and the RandomForestClassifier achieving
-around 95% accuracy on the test set.
+The KNN and RandomForestClassifier had the best performance, with KNN achieving 90% accuracy and the RandomForestClassifier achieving around 95% accuracy on the test set. There was a trade-off between
+accuracy and fit time, as the KNN fit time was shorter but the RandomForestClassifier accuracy was
+higher.
 
 ## Next Steps
 
