@@ -37,6 +37,7 @@ against previously characterized gene products?
 ## Data Sources
 
 The data used for this project was sourced originally from Protein Data Bank (PDB).
+It was downloaded from: https://www.kaggle.com/datasets/shahir/protein-data-set
 
 ## Methodology
 
