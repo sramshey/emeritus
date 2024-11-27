@@ -1,7 +1,7 @@
 # mol_class
 Machine Learning/AI through Emeritus/UCBerkeley
 
-https://github.com/sramshey/mol_class/blob/main/molecule_classifier.ipynb
+
 
 ## Description
 
@@ -11,6 +11,10 @@ that can accurately predict the class of a protein given only superficial data
 related to the molecule such as residue count, molecular weight, crystal density,
 pH, etc. The project uses several machine learning classification methodologies
 and compares them in terms of accuracy and fitting time.
+
+The notebook showing the process in code can be found here:
+
+https://github.com/sramshey/mol_class/blob/main/molecule_classifier.ipynb
 
 ### Step 1 - Data Review and Cleaning
 
