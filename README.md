@@ -12,7 +12,7 @@ pH, etc. The project uses several machine learning classification methodologies
 and compares them in terms of accuracy and fitting time.
 
 This project was undertaken as part of the Machine Learning/AI course offered
-through Emeritus/UCBerkeley
+through the Emeritus program at UCBerkeley
 
 ## Rationale
 
@@ -60,19 +60,23 @@ accuracy, and then a grid search was applied to optimize the hyperparameters.
 The accuracy and fit time of each model was evaulated and compared, both before
 and after optimization.
 
-Additional evaluation is pending.
-
 ## Results
 
-The KNN and RandomForestClassifier had the best performance, with KNN achieving 90% accuracy and the RandomForestClassifier achieving around 95% accuracy on the test set. There was a trade-off between
-accuracy and fit time, as the KNN fit time was shorter but the RandomForestClassifier accuracy was
-higher.
+The KNN and RandomForestClassifier appeared to have the best performance, with KNN achieving
+90% accuracy and the RandomForestClassifier achieving around 95% accuracy on the test set.
+However, with a training accuracy of 100% both of these models were deemed "over-fitted".
+The next best performing classifier was the Decision Tree Classifier, which had an accuracy
+of around 60%.
 
 ## Next Steps
 
+The next suggested steps for this project would be to try applying a neural net to the same
+problem and compare the accuracy to the other methods already attempted. We also suggest that
+obtaining additional features could help the performance of all of the classifiers.
+
 ## Outline of Project
 
-The notebook showing the process in code can be found here:
+The notebook detailing the process in code can be found here:
 
 https://github.com/sramshey/mol_class/blob/main/molecule_classifier.ipynb
 
